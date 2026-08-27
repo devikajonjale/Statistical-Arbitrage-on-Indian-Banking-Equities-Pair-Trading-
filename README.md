@@ -62,6 +62,39 @@ The XGBoost strategy was positive across all five folds.
 
 **Takeaway.** Econometrics is what makes the pair tradable. Machine learning is what makes the entries better. Neither half gets there alone.
 
+## Screenshots
+
+<table>
+<tr>
+<td width="50%">
+
+**Spread vs rolling GARCH volatility**<br>The mean-reverting spread with its one-step-ahead volatility forecast overlaid
+<img src="figures/spread_volatility.png" width="100%">
+
+</td>
+<td width="50%">
+
+**Rolling z-score**<br>The 41-day signal that triggers long, short and exit trades
+<img src="figures/rolling_zscore.png" width="100%">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Walk-forward backtest**<br>Cumulative returns, XGBoost signals against the z-score baseline
+<img src="figures/strategy_backtest.png" width="100%">
+
+</td>
+<td width="50%">
+
+**Performance summary**<br>Direction accuracy, cumulative returns and risk metrics side by side
+<img src="figures/performance_summary.png" width="100%">
+
+</td>
+</tr>
+</table>
+
 ## Tech stack
 
 | Category | Libraries |
